@@ -1,0 +1,10 @@
+﻿@model IEnumerable<NguyenKimManh_241230790De1.Models.TaiSan>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "NguyenKimManh_Layout";
+}
+@await Html.PartialAsync("NguyenKimManh_MainContent", Model)
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
